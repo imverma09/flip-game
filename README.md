@@ -1,0 +1,1 @@
+Certainly! In this memory card game, players take turns flipping over two cards. If the cards match, the player keeps them; otherwise, they are turned back over. The goal is to remember card positions and make successful matches.
