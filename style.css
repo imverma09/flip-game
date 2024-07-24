@@ -1,0 +1,45 @@
+button{
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+button:active{
+    scale: .9;
+}
+img{
+    height: 130px;
+    width: 130px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(auto-fit, 1fr);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 5px;
+    gap: 12px;
+    transform: translate(-50%,-50%);   
+}
+.game{
+    padding: 10px;
+}
+#h1{
+    text-align: center;
+}
+img.hide{
+    display: none;
+}
+.main.easy{
+    grid-template-columns: repeat(3,1fr);
+}
+@media screen and (max-width : 700px) {
+    img{
+        height: 80px;
+        width: 80px;
+    }
+    .main{
+        grid-template-columns: repeat(3,1fr);
+   }
+}
